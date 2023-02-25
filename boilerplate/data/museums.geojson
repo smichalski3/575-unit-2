@@ -1,1 +1,305 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"":"Musée du Louvre","visitor_2015":8.6,"vistor_2016":7.3,"vistor_2017":8.1,"vistor_2018":10.2,"visitor_2019":9.6,"visitor_2020":2.7,"visitor_2021":2.8},"geometry":{"type":"Point","coordinates":[2.333658,48.860824]}},{"type":"Feature","properties":{"":"Rijksmuseum","visitor_2015":2.3,"vistor_2016":2.2,"vistor_2017":2.5,"vistor_2018":2.3,"visitor_2019":2.7,"visitor_2020":0.67,"visitor_2021":0.62},"geometry":{"type":"Point","coordinates":[4.883325,52.360169]}},{"type":"Feature","properties":{"":"The Metropolitan Museum of Art ","visitor_2015":6.3,"vistor_2016":6.7,"vistor_2017":7,"vistor_2018":7.4,"visitor_2019":6.5,"visitor_2020":1.1,"visitor_2021":2.1},"geometry":{"type":"Point","coordinates":[-73.873768,40.774212]}},{"type":"Feature","properties":{"":"Museo Nacional del Prado","visitor_2015":2.7,"vistor_2016":3,"vistor_2017":2.8,"vistor_2018":2.9,"visitor_2019":3.2,"visitor_2020":0.85,"visitor_2021":1.1},"geometry":{"type":"Point","coordinates":[-3.692083,40.41464]}},{"type":"Feature","properties":{"":"The National Gallery","visitor_2015":6.5,"vistor_2016":5.9,"vistor_2017":6.2,"vistor_2018":5.9,"visitor_2019":5.5,"visitor_2020":0.23,"visitor_2021":1.1},"geometry":{"type":"Point","coordinates":[-0.128787,51.508745]}},{"type":"Feature","properties":{"":"The Art Institute of Chicago","visitor_2015":1.5,"vistor_2016":1.8,"vistor_2017":1.6,"vistor_2018":1.6,"visitor_2019":1.7,"visitor_2020":0.36,"visitor_2021":1.5},"geometry":{"type":"Point","coordinates":[-87.621719,41.878922]}},{"type":"Feature","properties":{"":"Musei Vaticani","visitor_2015":6,"vistor_2016":6.1,"vistor_2017":6.4,"vistor_2018":6.8,"visitor_2019":6.9,"visitor_2020":1.3,"visitor_2021":1.6},"geometry":{"type":"Point","coordinates":[12.452728,41.90628]}},{"type":"Feature","properties":{"":"Galleria degli Uffizi","visitor_2015":1.9,"vistor_2016":3.4,"vistor_2017":2.2,"vistor_2018":2.1,"visitor_2019":2.1,"visitor_2020":0.6,"visitor_2021":1.7},"geometry":{"type":"Point","coordinates":[11.255477,43.768515]}},{"type":"Feature","properties":{"":"Natinoal Gallery of Victoria","visitor_2015":2.4,"vistor_2016":2.8,"vistor_2017":3.2,"vistor_2018":2.9,"visitor_2019":2.1,"visitor_2020":0.55,"visitor_2021":0.77},"geometry":{"type":"Point","coordinates":[144.968822,-37.822676]}},{"type":"Feature","properties":{"":"Scottish National Gallery","visitor_2015":1.4,"vistor_2016":1.5,"vistor_2017":1.6,"vistor_2018":1.7,"visitor_2019":1.6,"visitor_2020":0.3,"visitor_2021":0.3},"geometry":{"type":"Point","coordinates":[-3.199208,55.956538]}},{"type":"Feature","properties":{"":"The Getty","visitor_2015":1.8,"vistor_2016":1.8,"vistor_2017":1.6,"vistor_2018":2.8,"visitor_2019":1.8,"visitor_2020":0.3,"visitor_2021":0.5},"geometry":{"type":"Point","coordinates":[-118.47465,34.078934]}},{"type":"Feature","properties":{"":"National Gallery of Canada","visitor_2015":0.29,"vistor_2016":0.42,"vistor_2017":0.38,"vistor_2018":0.43,"visitor_2019":0.41,"visitor_2020":0.067,"visitor_2021":0.16},"geometry":{"type":"Point","coordinates":[-75.698568,45.429476]}},{"type":"Feature","properties":{"":"National Gallery of Art","visitor_2015":4.1,"vistor_2016":4.2,"vistor_2017":5.2,"vistor_2018":4.4,"visitor_2019":4.1,"visitor_2020":0.73,"visitor_2021":1.7},"geometry":{"type":"Point","coordinates":[-77.01973,38.8913]}},{"type":"Feature","properties":{"":"Musée d'Orsay","visitor_2015":3.4,"vistor_2016":3,"vistor_2017":3.3,"vistor_2018":3.2,"visitor_2019":3.7,"visitor_2020":0.87,"visitor_2021":1.4},"geometry":{"type":"Point","coordinates":[2.325055,48.86085]}},{"type":"Feature","properties":{"":"Victoria and Albert Museum ","visitor_2015":3.9,"vistor_2016":3.4,"vistor_2017":4.4,"vistor_2018":4.3,"visitor_2019":4.1,"visitor_2020":0.13,"visitor_2021":1.2},"geometry":{"type":"Point","coordinates":[-0.170748,51.496279]}}]}
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Musée du Louvre",
+                "visitor_2015": 8.6,
+                "visitor_2016": 7.3,
+                "visitor_2017": 8.1,
+                "visitor_2018": 10.2,
+                "visitor_2019": 9.6,
+                "visitor_2020": 2.7,
+                "visitor_2021": 2.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.333658,
+                    48.860824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Rijksmuseum",
+                "visitor_2015": 2.3,
+                "visitor_2016": 2.2,
+                "visitor_2017": 2.5,
+                "visitor_2018": 2.3,
+                "visitor_2019": 2.7,
+                "visitor_2020": 0.67,
+                "visitor_2021": 0.62
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.883325,
+                    52.360169
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "The Metropolitan Museum of Art ",
+                "visitor_2015": 6.3,
+                "visitor_2016": 6.7,
+                "visitor_2017": 7,
+                "visitor_2018": 7.4,
+                "visitor_2019": 6.5,
+                "visitor_2020": 1.1,
+                "visitor_2021": 2.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.873768,
+                    40.774212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Museo Nacional del Prado",
+                "visitor_2015": 2.7,
+                "visitor_2016": 3,
+                "visitor_2017": 2.8,
+                "visitor_2018": 2.9,
+                "visitor_2019": 3.2,
+                "visitor_2020": 0.85,
+                "visitor_2021": 1.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.692083,
+                    40.41464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "The National Gallery",
+                "visitor_2015": 6.5,
+                "visitor_2016": 5.9,
+                "visitor_2017": 6.2,
+                "visitor_2018": 5.9,
+                "visitor_2019": 5.5,
+                "visitor_2020": 0.23,
+                "visitor_2021": 1.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.128787,
+                    51.508745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "The Art Institute of Chicago",
+                "visitor_2015": 1.5,
+                "visitor_2016": 1.8,
+                "visitor_2017": 1.6,
+                "visitor_2018": 1.6,
+                "visitor_2019": 1.7,
+                "visitor_2020": 0.36,
+                "visitor_2021": 1.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.621719,
+                    41.878922
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Musei Vaticani",
+                "visitor_2015": 6,
+                "visitor_2016": 6.1,
+                "visitor_2017": 6.4,
+                "visitor_2018": 6.8,
+                "visitor_2019": 6.9,
+                "visitor_2020": 1.3,
+                "visitor_2021": 1.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.452728,
+                    41.90628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Galleria degli Uffizi",
+                "visitor_2015": 1.9,
+                "visitor_2016": 3.4,
+                "visitor_2017": 2.2,
+                "visitor_2018": 2.1,
+                "visitor_2019": 2.1,
+                "visitor_2020": 0.6,
+                "visitor_2021": 1.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.255477,
+                    43.768515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "National Gallery of Victoria",
+                "visitor_2015": 2.4,
+                "visitor_2016": 2.8,
+                "visitor_2017": 3.2,
+                "visitor_2018": 2.9,
+                "visitor_2019": 2.1,
+                "visitor_2020": 0.55,
+                "visitor_2021": 0.77
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.968822,
+                    -37.822676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Scottish National Gallery",
+                "visitor_2015": 1.4,
+                "visitor_2016": 1.5,
+                "visitor_2017": 1.6,
+                "visitor_2018": 1.7,
+                "visitor_2019": 1.6,
+                "visitor_2020": 0.3,
+                "visitor_2021": 0.3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.199208,
+                    55.956538
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "The Getty",
+                "visitor_2015": 1.8,
+                "visitor_2016": 1.8,
+                "visitor_2017": 1.6,
+                "visitor_2018": 2.8,
+                "visitor_2019": 1.8,
+                "visitor_2020": 0.3,
+                "visitor_2021": 0.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.47465,
+                    34.078934
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "National Gallery of Canada",
+                "visitor_2015": 0.29,
+                "visitor_2016": 0.42,
+                "visitor_2017": 0.38,
+                "visitor_2018": 0.43,
+                "visitor_2019": 0.41,
+                "visitor_2020": 0.067,
+                "visitor_2021": 0.16
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.698568,
+                    45.429476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "National Gallery of Art",
+                "visitor_2015": 4.1,
+                "visitor_2016": 4.2,
+                "visitor_2017": 5.2,
+                "visitor_2018": 4.4,
+                "visitor_2019": 4.1,
+                "visitor_2020": 0.73,
+                "visitor_2021": 1.7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.01973,
+                    38.8913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Musée d'Orsay",
+                "visitor_2015": 3.4,
+                "visitor_2016": 3,
+                "visitor_2017": 3.3,
+                "visitor_2018": 3.2,
+                "visitor_2019": 3.7,
+                "visitor_2020": 0.87,
+                "visitor_2021": 1.4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.325055,
+                    48.86085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Museum": "Victoria and Albert Museum ",
+                "visitor_2015": 3.9,
+                "visitor_2016": 3.4,
+                "visitor_2017": 4.4,
+                "visitor_2018": 4.3,
+                "visitor_2019": 4.1,
+                "visitor_2020": 0.13,
+                "visitor_2021": 1.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.170748,
+                    51.496279
+                ]
+            }
+        }
+    ]
+}
