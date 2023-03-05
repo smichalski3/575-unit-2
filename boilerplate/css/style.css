@@ -1,33 +1,76 @@
+@font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald-Light.ttf);
+  }
+  @font-face {
+    font-family: oswald;
+    src: url(fonts/Oswald-Bold.ttf);
+    font-weight: bold;
+  }
+
+.title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: #d4cea7;
+    color: #730000
+}
+
+
 /* map style */ 
 #map { 
-    height: 400px; 
-    width: 70%; 
+    height: 600px; 
+    width: 100%; 
     display: inline-block; 
 }
 
 .leaflet-popup-content p { 
-    margin: 0.2em 0; 
+    margin: 0.1em 0; 
+    font-family: oswald;
+    font-weight: bold;
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+    background-color: red !important;
+    border-radius:25px !important;
+box-shadow: 5px 5px 0.5 black !important;
 }
 
-#panel { 
+
+.sequence-control-container {
+    width: 350px;
+    height: 30px; 
+    background-color: white;
+    opacity: 80%;
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+
+}
+
+/* #panel { 
     width: 25%;
     padding: 20px;
     display: inline-block;
     vertical-align: top; 
     text-align: center; 
     line-height: 42px;
-}
+} */
 
 .range-slider { 
-    width: 55%;
+    width: 250px;
 }
 
 .step { 
-    width: 20%;
+    width: 40px;
 }
 
 .step img {
     width: 100%; 
+    height: auto;
 }
 
 #forward { 
@@ -36,4 +79,19 @@
 
 #reverse {
     float: left;
+}
+
+.legend-control-container {
+    width: 150 px;
+    /*height: 200px;*/
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    text-align: center;
+    border: solid gray 1px;
+    font-family: oswald;
+}
+
+.legend-control-container p{
+     margin: 0;
 }
