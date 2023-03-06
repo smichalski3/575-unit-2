@@ -165,8 +165,6 @@ function getCircleValues(attribute) {
   }
 
 
-
-
 //Step 10: Resize proportional symbols according to new attribute values
 function updatePropSymbols(attribute){
     map.eachLayer(function(layer){
@@ -240,7 +238,6 @@ function createSequenceControls(attributes){
 
 
             return container;
-
         }
     });
 
@@ -325,7 +322,7 @@ function createLegend(attributes) {
           radius +
           '"cy="' +
           cy +
-          '" fill="#730000" fill-opacity="0.9" stroke="#000000" cx="25"/>';
+          '" fill="#730000" fill-opacity="1" stroke="#000000" cx="25"/>';
 
         //evenly space out labels
         var textY = i * 20 + 20;
