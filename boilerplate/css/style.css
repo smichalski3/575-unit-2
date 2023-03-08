@@ -1,15 +1,4 @@
 /* fonts */ 
-@font-face {
-    font-family: oswald;
-    src: url(fonts/Oswald-Light.ttf);
-  }
-
-@font-face {
-    font-family: oswald;
-    src: url(fonts/Oswald-Bold.ttf);
-    font-weight: bold;
-  }
-
 @font-face { 
     font-family: cantique;
     src: url(fonts/Cantique-Normal.otf);
@@ -44,7 +33,7 @@
     font-family: cantique;
 }
 
-.text5 {
+.text2 {
     color: black;
     text-align: left;
     font-family: day;
@@ -52,7 +41,7 @@
     margin-block-end: 25px;
 }
 
-.text6 {
+.text3 {
     color: black; 
     text-align: center;
     font-family: day;
@@ -71,22 +60,27 @@ body{
     justify-content: center;
   }
   
-  img {
+img {
     max-width: 100%;
   }
   
-  .image {
-    flex-basis: 70%;
+.image {
+    flex-basis: 80%;
     margin-bottom: 15px;
   }
-  
-  .text {
+
+.image1 {
+    flex-basis: 80%;
+    margin-bottom: 15px;
+  }
+
+.text {
     font-size: 16px;
     padding-left: 20px;
     font-family: day;
   }
 
-  .text1 {
+.text1 {
     font-size: 16px;
     padding-right: 20px;
     font-family: day;
@@ -103,7 +97,7 @@ body{
     margin-top: 5px;
   }
   
-  .row::after {
+.row::after {
     content: "";
     clear: both;
     display: table;

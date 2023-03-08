@@ -213,7 +213,7 @@ function processData(data){
 };
 
 
-//Create new sequence controls
+//Create sequence controls
 function createSequenceControls(attributes){   
     
     var SequenceControl = L.Control.extend({
@@ -350,7 +350,6 @@ function createLegend(attributes) {
 
   map.addControl(new LegendControl());
 }
-
 
 
 function getData(map){
